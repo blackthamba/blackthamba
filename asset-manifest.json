@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/blackthambamc/static/css/main.f855e6bc.css",
+    "main.js": "/blackthambamc/static/js/main.90ab31fc.js",
+    "static/js/453.69f9b72a.chunk.js": "/blackthambamc/static/js/453.69f9b72a.chunk.js",
+    "static/media/logo.svg": "/blackthambamc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/blackthambamc/index.html",
+    "main.f855e6bc.css.map": "/blackthambamc/static/css/main.f855e6bc.css.map",
+    "main.90ab31fc.js.map": "/blackthambamc/static/js/main.90ab31fc.js.map",
+    "453.69f9b72a.chunk.js.map": "/blackthambamc/static/js/453.69f9b72a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.90ab31fc.js"
+  ]
+}
