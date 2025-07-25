@@ -17,21 +17,21 @@ const items = [
     title: 'Honra e lealdade',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis sapien turpis. Nullam vitae viverra tellus, at dictum mauris. ',
-    imageDark: `url("${process.env.PUBLIC_URL}/img/master-chopper.png")`,
+    imageDark: `url("src/img/master-chopper.png")`,
   },
   {
     icon: <VolunteerActivismOutlinedIcon />,
     title: 'Respeito Mútuo',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis sapien turpis. Nullam vitae viverra tellus, at dictum mauris. ',
-    imageDark: `url("${process.env.PUBLIC_URL}/img/master-intruder.png")`,
+    imageDark: `url("src/img/master-intruder.png")`,
   },
   {
     icon: <DevicesRoundedIcon />,
     title: 'Tradição e Legado',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis sapien turpis. Nullam vitae viverra tellus, at dictum mauris. ',
-    imageDark: `url("${process.env.PUBLIC_URL}/img/master-intruder-ducati.jpg")`,
+    imageDark: `url("src/img/master-intruder-ducati.jpg")`,
   },
 ];
 

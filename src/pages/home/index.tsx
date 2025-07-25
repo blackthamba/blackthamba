@@ -13,23 +13,11 @@ function BlackThambaLandingPage() {
   const { changeTheme, mode } = useTheme();
   const [previousMode] = useState(mode);
 
-
-  const changeFavicon = (image: string) => {
-    const favicon = document.querySelector("link[rel~='icon']") as HTMLLinkElement
-    if (favicon) {
-      let path = process.env.PUBLIC_URL;  
-      console.log(path);
-      favicon.href = path + "/" + image;
-    }
-  }
-
   useEffect(() => {
     changeTheme('dark');
-    changeFavicon('blackthamba.png');
     document.title = "Black Thamba";
     return () => {
       if (previousMode) changeTheme(previousMode);
-      changeFavicon('favicon.png');
       document.title = "João Maciel";
     }
   }, [changeTheme, previousMode]);
