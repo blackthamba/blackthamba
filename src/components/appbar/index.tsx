@@ -44,7 +44,7 @@ const BlackThambaAppBar = ({ anchorElNav, handleCloseNavMenu, handleOpenNavMenu,
         sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
       >
         <Tooltip title="Logo">
-          <img src={'src/img/blackthamba.png'} alt="Logo" width="45" style={{ borderRadius: 10 }} />
+          <img src={'blackthamba.png'} alt="Logo" width="45" style={{ borderRadius: 10 }} />
         </Tooltip>
       </Typography>
       <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -107,7 +107,7 @@ const BlackThambaAppBar = ({ anchorElNav, handleCloseNavMenu, handleOpenNavMenu,
         sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
       >
         <Tooltip title="Logo">
-          <img src={'src/img/blackthamba.png'} alt="Logo" width="45" style={{ borderRadius: 10 }} />
+          <img src={`blackthamba.png`} alt="Logo" width="45" style={{ borderRadius: 10 }} />
         </Tooltip>
       </Typography>
       <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>

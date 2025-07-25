@@ -18,7 +18,7 @@ const StyledBox = styled('div')(({ theme }) => ({
         height: 700,
     },
     boxShadow: '0 0 24px 12px hsla(210, 100%, 25%, 0.2)',
-    backgroundImage: `url(src/img/master-intruder.png)`,
+    backgroundImage: `url(master-intruder.png)`,
     outlineColor: 'hsla(220, 20%, 42%, 0.1)',
     borderColor: theme.palette.grey[700],
 }));
